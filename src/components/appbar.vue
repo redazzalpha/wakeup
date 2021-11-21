@@ -25,12 +25,3 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@font-face {
-    font-family: 'Tangerine';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZM.woff2') format('woff2');
-}
-</style>
-

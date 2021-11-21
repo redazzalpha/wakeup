@@ -9,18 +9,9 @@
         />
       </template>
     </appbar>
+
     <!--main-tag-->
     <v-main>
-    <!--nav-drawer-->
-    <v-navigation-drawer app
-    v-model='drawer'
-    @click.stop='drawer= !drawer'
-    absolute
-    temporary
-    >
-    <!--nav-menu-->
-    <menulist></menulist>
-    </v-navigation-drawer>
       <!--container-->
       <v-container grid-list-xs>
         <v-row>
@@ -30,18 +21,32 @@
         </v-row>
       </v-container>
     </v-main>
-    <v-footer app>footer</v-footer>
+
+    <!--nav-drawer-->
+    <v-navigation-drawer app
+    v-model='drawer'
+    @click.stop='drawer= !drawer'
+    temporary
+    >
+      <!--nav-menu-->
+      <menulist />
+    </v-navigation-drawer>
+
+    <!--footer-->
+    <ftr />
   </v-app>
 </template>
 
 <script>
 import appbar from './components/appbar.vue';
 import menulist from './components/menulist.vue';
+import ftr from './components/footer.vue';
 export default {
   name: 'main-app',
   components: {
     appbar,
     menulist,
+    ftr
   }, 
   data: () => {
     return {
@@ -50,3 +55,13 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+@font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZM.woff2') format('woff2');
+}
+</style>
+
