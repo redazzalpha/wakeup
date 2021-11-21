@@ -1,29 +1,21 @@
 <template>
     <div class="appbar">
         <!--app-bar-->
-        <v-app-bar app height="85">
+        <v-app-bar app src='https://www.wakeupcafe.org/wp-content/uploads/2020/11/Capture-decran-2020-11-20-a-18.34.53.png'>
+            <template v-slot:img="{ props }">
+                <v-img
+                v-bind='props'
+                gradient="to top right, rgba(100,115,201,.7), rgba(25,32,72,.7)"
+                ></v-img>
+
+            </template>
+            <v-app-bar-nav-icon />
+            <v-toolbar-title
+            class='container text-h3 font-weight-bold orange--text text--darken-2'
+            style="font-family: 'Tangerine' !important"
+            >Wake up café
+            </v-toolbar-title>
             <!--container-->
-            <v-container grid-list-xs>
-                <v-row>
-                    <!--app-bar-icon-->
-                    <v-col>
-                        <v-app-bar-nav-icon />
-                    </v-col>
-                    <!--app-bar-logo-->
-                    <v-col>
-                        <v-toolbar-title
-                        class='container text-h3 font-weight-bold orange--text text--darken-2'
-                        style="font-family: 'Tangerine' !important"
-                        >Wake up café
-                        </v-toolbar-title>
-                    </v-col>
-                </v-row>
-                <v-row>
-                    <!--nav-buttons-->
-                    <v-col>
-                    </v-col>
-                </v-row>
-            </v-container>
         </v-app-bar>
     </div>
 </template>
