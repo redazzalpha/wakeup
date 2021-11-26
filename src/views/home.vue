@@ -1,23 +1,49 @@
 <template>
     <div class="home">
-        <v-img 
-        src='https://www.wakeupcafe.org/wp-content/uploads/2020/11/Capture-decran-2020-11-20-a-17.29.25.png' 
-        class="d-none d-sm-block"
-        />
+        <!--wakeup-logo-->
+        <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/11/Capture-decran-2020-11-20-a-17.29.25.png' />
+        <!--carousel-img-->
         <v-carousel
         cycle
         show-arrows-on-hover
         hide-delimiters
-        height="51vh"
+        :height='carouselHeight'
+        class="mb-6"
         >
             <v-carousel-item
             v-for='image in images'
             :key="image.src"
-            :src='image.src'
-            width='50vw'
-            class="mx-auto"
-            ></v-carousel-item>
+            ><v-img :src='image.src' :height='carouselHeight'  />
+            </v-carousel-item>
         </v-carousel>
+        <!--main-block-->
+        <div class="mx-auto" :style='divStyle'>
+            <!--title-->
+            <h2 class="text-center text-h1" style="font-family: 'Tangerine' !important;">wake up café</h2>
+            <!--subtitle-->
+            <h3 class="py-4">Qui sommes nous ?</h3>
+            <!--presentation-picture-->
+            <figure class="mb-4" :style='figureStyle'>
+                <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/12/wkf-histoire.jpg' title="Clotilde Gilbert fondatrice wake' up café" style="border-radius: 15px 15px 0 0; "/>  
+                <figcaption class="font-italic" style="">Clotilde Gilbert fondatrice Wake' up café.</figcaption>
+            </figure>
+            <!--presentation-text-->
+            <p class="mb-9" style="font-size: 1em;">
+                Pendant 7 ans, Clotilde Gilbert, en tant qu’aumônier de prison, a rencontré des <br />
+                détenus de la maison d’arrêt de Nanterre dans leurs cellules. <br />
+                Elle a fait le constat que l’enfermement et l’inaction désocialisent, déstructurent <br />
+                et déshumanisent la personne. <br />
+                Or toutes ces personnes sortiront un jour de prison, et devront retrouver <br />
+                une vie sociale et professionnelle. <br />
+                Il est donc important qu'elles reprennent confiance en elles-mêmes pour devenir <br />
+                moteur de leur réinsertion. <br />
+                Au fil des rencontres, la découverte de talents dans le domaine de l’art et de la culture, <br />
+                a d’abord donné lieu à la création d’une chorale dirigée par Clotilde pendant 5 ans. <br />
+                Les bénéfices constatés chez les participants (plus grande confiance en soi, ouverture aux autres, énergie retrouvée…) <br />
+                ont permis d’aller plus loin.
+                Le projet d’enregistrer un CD en détention est né : c’est le début de Wake up Café.
+            </p>
+        </div>
     </div>
 </template>
 
@@ -34,7 +60,61 @@ export default {
                 {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/07/IMG_1578.jpg'},
             ]
         };
-    }
+    },
+    computed: {
+        divStyle() {
+            let style = 'width: ';
+            switch (this.$vuetify.breakpoint.name) {
+                case 'xs': style += '100%'; break;
+                case 'sm': style += '80%'; break;
+                case 'md': style += '90%'; break;
+                case 'lg': style += '50%'; break;
+                case 'xl': style += '50%'; break;
+            }
+            return style;
+        },
+        figureStyle() {
+            let style = 'border-radius: 15px 15px 0 0; float: ';
+            switch (this.$vuetify.breakpoint.name) {
+                case 'xs': style += 'unset'; break;
+                case 'sm': style += 'right'; break;
+                case 'md': style += 'right'; break;
+                case 'lg': style += 'right'; break;
+                case 'xl': style += 'right'; break;
+            }
+            return style;
+        },
+        carouselHeight() {
+            let height;
+            switch (this.$vuetify.breakpoint.name) {
+                case 'xs': height = 220; break;
+                case 'sm': height = 400; break;
+                case 'md': height = 500; break;
+                case 'lg': height = 600; break;
+                case 'xl': height = 800; break;
+            }
+            return height;
+        },
+
+    },
 }
 </script>
+
+<style lang="scss" scoped>
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+}
+figcaption {
+    background-color: orange;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+</style>
 

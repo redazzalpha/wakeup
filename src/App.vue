@@ -2,18 +2,16 @@
   <v-app>
     <!--app-bar-->
     <appbar>
+      <!--hamberger-icon-->
       <template v-slot:menu-icon>
-        <!--hamberger-icon-->
-        <v-app-bar-nav-icon 
-        @click="drawer = !drawer"
-        />
+        <v-app-bar-nav-icon @click="drawer = !drawer" />
       </template>
     </appbar>
 
     <!--main-tag-->
-    <v-main>
+    <v-main class="pt-15">
       <!--container-->
-      <v-container grid-list-xs>
+      <v-container grid-list-xs fluid>
         <v-row>
           <v-col>
             <router-view />
@@ -56,12 +54,19 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @font-face {
     font-family: 'Tangerine';
     font-style: normal;
     font-weight: 400;
-    src: url('https://fonts.gstatic.com/s/tangerine/v12/IurY6Y5j_oScZZow4VOxCZZM.woff2') format('woff2');
+    src: url('./assets/fonts/Tangerine-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Petemoss';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/Petemoss-Regular.ttf') format('truetype');
+}
+
 </style>
 
