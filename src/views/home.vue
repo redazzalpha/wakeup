@@ -19,23 +19,23 @@
         <!--main-block-->
         <div class="mx-auto" :style='divStyle'>
             <!--title-->
-            <h2 class="text-center text-h1" style="font-family: 'Tangerine' !important;">wake up café</h2>
+            <div class="text-center text-h1" style="font-family: 'Tangerine' !important;">wake up café</div>
             <!--subtitle-->
             <h3 class="py-4">Qui sommes nous ?</h3>
             <!--presentation-picture-->
             <figure class="mb-4" :style='figureStyle'>
-                <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/12/wkf-histoire.jpg' title="Clotilde Gilbert fondatrice wake' up café" style="border-radius: 15px 15px 0 0; "/>  
+                <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/12/wkf-histoire.jpg' title="Clotilde Gilbert fondatrice wake' up café" style="border-radius: 15px 15px 0 0;" />  
                 <figcaption class="font-italic" style="">Clotilde Gilbert fondatrice Wake' up café.</figcaption>
             </figure>
             <!--presentation-text-->
-            <p class="mb-9" style="font-size: 1em;">
-                Pendant 7 ans, Clotilde Gilbert, en tant qu’aumônier de prison, a rencontré des <br />
+            <p class="mb-9 text-body-2 text-sm-body-1" style="">
+                Pendant 7 ans, Clotilde Gilbert, en tant qu’aumônier de prison, a rencontré des 
                 détenus de la maison d’arrêt de Nanterre dans leurs cellules. <br />
-                Elle a fait le constat que l’enfermement et l’inaction désocialisent, déstructurent <br />
+                Elle a fait le constat que l’enfermement et l’inaction désocialisent, déstructurent
                 et déshumanisent la personne. <br />
-                Or toutes ces personnes sortiront un jour de prison, et devront retrouver <br />
+                Or toutes ces personnes sortiront un jour de prison, et devront retrouver 
                 une vie sociale et professionnelle. <br />
-                Il est donc important qu'elles reprennent confiance en elles-mêmes pour devenir <br />
+                Il est donc important qu'elles reprennent confiance en elles-mêmes pour devenir 
                 moteur de leur réinsertion. <br />
                 Au fil des rencontres, la découverte de talents dans le domaine de l’art et de la culture, <br />
                 a d’abord donné lieu à la création d’une chorale dirigée par Clotilde pendant 5 ans. <br />
@@ -95,26 +95,8 @@ export default {
             }
             return height;
         },
-
     },
 }
 </script>
 
-<style lang="scss" scoped>
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-}
-figcaption {
-    background-color: orange;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-}
-
-
-</style>
 
