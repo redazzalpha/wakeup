@@ -74,6 +74,18 @@ export default {
     src: url('./assets/fonts/Petemoss-Regular.ttf') format('truetype');
 }
 
+@media screen and (min-width: 768px) {
+  p{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  p{
+    font-size: 0.875rem;
+  }
+}
+
+
 h2{
   font-family: 'Tangerine';
   font-size: 3em;

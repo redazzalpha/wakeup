@@ -28,7 +28,7 @@
                 <figcaption class="font-italic" style="">Clotilde Gilbert fondatrice Wake' up café.</figcaption>
             </figure>
             <!--presentation-text-->
-            <p class="mb-9 text-body-2 text-sm-body-1" style="">
+            <p class="mb-9">
                 Pendant 7 ans, Clotilde Gilbert, en tant qu’aumônier de prison, a rencontré des 
                 détenus de la maison d’arrêt de Nanterre dans leurs cellules. <br />
                 Elle a fait le constat que l’enfermement et l’inaction désocialisent, déstructurent

@@ -4,7 +4,7 @@
     <!--title-->
     <h2>Nos Partenaires</h2>
     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/10/120932868_147603957043144_3717174745999936021_o.jpg' :width='imgWidth' height=300 class="mx-auto" />
-    <p class="text-body-2 text-sm-body-1 text-center my-8">"Plus de 100 entreprises partenaires nous accompagnent au quotidien"</p>
+    <p class="text-center my-8">"Plus de 100 entreprises partenaires nous accompagnent au quotidien"</p>
 
     <!--institutional-partners-->
     <h3>Partenaires institutionnels</h3>
@@ -57,6 +57,26 @@
       </v-card-text>
     </v-card>
 
+    <p class="mx-auto" :style="paragraphStyle">
+      <span class="orange--text font-weight-bold">Ils nous accompagnent</span><br />
+      Kéa, Kimso eurogroup autrement, Co, fondsl, Scale Changer, Ronalpia.
+    </p>
+
+    <p class="mx-auto" :style="paragraphStyle">
+      <span class="orange--text font-weight-bold">Ils s'engagent avec nous</span><br />
+      Accenture, Vermeer Capital, Audiens, Panorama, Safran, Macif, Bolloré, Total , Toit à moi, 
+      Urssaf, Habitat et Humanisme, Makesense, Essilor, Alternatives, Crésus, Chimène, Solidarité, 
+      Balluchon, Agatha, CPP, Ce que mes yeux ont vu, Edas, Racing 92, La Ruche, Afec, Lemon Tri, 
+      Le Rocher, UNEP, 2e Chance, Association Discipline Positive, EDVO, Weave, Entreprise W, Kéa, 
+      Lemon Aide, Arès, Aloest, Aurore, Lilo; Delsol et Avocats, Eventium, Sellsy, Groupe Rougnon, Lame de Fond, 
+      Le Projet Imagine, Eurogroup Autrement, Raise, Solidarity Accor Hotels, CFA Stephenson, AFPA, Aef94, 
+      Réseau Cocagne, Pôle emploi, Simplon, Carrefour, Le réseau des missions locales, L'association Pour l'Amitié, 
+      Siao 75, Siao 92, Solidarité Nouvelle Logement, Emmaüs, L'escale, Bichat, Sainte-Anne, CFP Podo-Logie, 
+      La Corde Raide, Trait d'union, Bimbamjob, La Cimade, La Cravate Solidaire, Wimoov, Eloquentia, L'Alternative Urbaine, 
+      Culture du Cœur, La Cloche.
+
+    </p>
+
     <!--our-price-->
     <h3>Nos prix</h3>
     <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-10">
@@ -73,6 +93,18 @@
         </v-container>
       </v-card-text>
     </v-card>
+
+    <v-divider></v-divider>
+    <div class="d-flex flex-column flex-sm-row justify-center">
+        <a a href="https://www.wakeupcafe.org/wp-content/uploads/2020/11/ITW-Pierre.pdf" class="d-flex flex-column align-center ma-5" style="text-decoration: unset">
+          <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/05/IMG_3496-150x150.jpg' :width='photoWidth' />
+          <span>Témoignage</span>
+        </a>
+        <a a href="https://app.vendredi.cc/s-engager-pour/wake-up-cafe" class="d-flex flex-column align-center ma-5" style="text-decoration: unset">
+          <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/11/Capture-decran-2020-11-06-a-09.27.08-e1606066173996-150x150.png' :width='photoWidth' />
+          <span>Rejoignez nos mécènes</span>
+        </a>
+    </div>
     
   </div>
 </template>
@@ -146,11 +178,11 @@ export default {
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2021/03/LOGO-TRUFFAUT-VERT-pdf.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/05/challancin.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/France.tv_.svg_-300x52.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/logo-carrefour-285x228.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/logo-228.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2018/03/Logo_Belbeoch.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/04/houra-150x150.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2018/03/Logo_Michel_Augustin-150x150.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Logo_Suez_2016-285x72.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/72.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Adecco-logo-300x246.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/12/utileetagreable-150x150.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2017/05/chimene.png'},
@@ -163,7 +195,7 @@ export default {
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/1280px-Logo-groupe-ginger.svg_.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2017/10/ecp.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/logo-auchan-retail-france.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-11-%C3%A0-10.10.08-285x143.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-11-%C3%A0-10.10.143.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/Buffalo-Grill-Logo.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/12/Logo-Total-1.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2021/03/logo-daphni-150x150.jpg'},
@@ -175,6 +207,7 @@ export default {
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2018/08/FFE-300x211.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2019/07/investissement_competences-285x95.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/logo-atoutsoleil-2013-copie-e1606069708568.jpg'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/logo-creenso.png'},
         ],
       };
     },
@@ -212,9 +245,30 @@ export default {
         }
         return width;
       },
-      colClass
-      () {
+      photoWidth() {
+        let width;
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': width = '60%'; break;
+            case 'sm': width = '168px'; break;
+            case 'md': width = '200px'; break;
+            case 'lg': width = '220px'; break;
+            case 'xl': width = '200px'; break;
+        }
+        return width;
+      },
+      colClass() {
         return 'col-6 col-sm-4 col-md-3 col-lg-2';
+      },
+      paragraphStyle() {
+        let style = 'width: ';
+        switch (this.$vuetify.breakpoint.name) {
+            case 'xs': style += '100%'; break;
+            case 'sm': style += '80%'; break;
+            case 'md': style += '90%'; break;
+            case 'lg': style += '50%'; break;
+            case 'xl': style += '50%'; break;
+        }
+        return style;
       },
     },
 }

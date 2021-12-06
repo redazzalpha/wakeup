@@ -6,7 +6,7 @@
     <!--title-img-->
     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2021/01/IMG-20210115-WA0018.jpg' :width='imgWidth' class="mx-auto" />
     <!--introduction-text-->
-    <p class="text-body-2 text-sm-body-1 text-center my-8">
+    <p class="text-center my-8">
       WKF accompagne de manière rapprochée des personnes volontaires, détenues et sorties de prison, sur toutes les difficultés rencontrées à la sortie (emploi, logement, soin...). <br />
       Pour cela, l’association s’appuie sur un réseau de partenaires engagés à ses côtés, pour une réinsertion durable, sans récidive.
     </p>
