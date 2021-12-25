@@ -19,9 +19,7 @@
         <!--main-block-->
         <div class="mx-auto" :style='divStyle'>
             <!--title-->
-            <div class="text-center text-h1" style="font-family: 'Tangerine' !important;">wake up café</div>
-            <!--subtitle-->
-            <h3 class="py-4">Qui sommes nous ?</h3>
+            <div class="text-center text-h2 font-weight-bold ma-5" style="font-family: 'Tangerine' !important;">wake up café</div>
             <!--presentation-picture-->
             <figure class="mb-4" :style='figureStyle'>
                 <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/12/wkf-histoire.jpg' title="Clotilde Gilbert fondatrice wake' up café" style="border-radius: 15px 15px 0 0;" />  

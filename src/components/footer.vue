@@ -28,7 +28,7 @@
                         <ul>
                             <div class="d-flex align-baseline mb-2"> <v-icon class="mr-2">mdi-phone-classic</v-icon>Contacts : </div>
                             <li v-for="addr in address" :key="addr.label" style="list-style-type: none">
-                                <address><a :href="addr.link" style="text-decoration: unset">{{ addr.label }}</a></address>
+                                <address><a :href="addr.link">{{ addr.label }}</a></address>
                             </li>
                         </ul>
                     </nav>

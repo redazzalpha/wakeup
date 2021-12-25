@@ -96,11 +96,11 @@
 
     <v-divider></v-divider>
     <div class="d-flex flex-column flex-sm-row justify-center">
-        <a a href="https://www.wakeupcafe.org/wp-content/uploads/2020/11/ITW-Pierre.pdf" class="d-flex flex-column align-center ma-5" style="text-decoration: unset">
+        <a a href="https://www.wakeupcafe.org/wp-content/uploads/2020/11/ITW-Pierre.pdf" class="d-flex flex-column align-center ma-5">
           <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/05/IMG_3496-150x150.jpg' :width='photoWidth' />
           <span>Témoignage</span>
         </a>
-        <a a href="https://app.vendredi.cc/s-engager-pour/wake-up-cafe" class="d-flex flex-column align-center ma-5" style="text-decoration: unset">
+        <a a href="https://app.vendredi.cc/s-engager-pour/wake-up-cafe" class="d-flex flex-column align-center ma-5">
           <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2020/11/Capture-decran-2020-11-06-a-09.27.08-e1606066173996-150x150.png' :width='photoWidth' />
           <span>Rejoignez nos mécènes</span>
         </a>
@@ -178,11 +178,11 @@ export default {
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2021/03/LOGO-TRUFFAUT-VERT-pdf.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/05/challancin.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/France.tv_.svg_-300x52.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/logo-228.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/logo-carrefour-285x228.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2018/03/Logo_Belbeoch.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/04/houra-150x150.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2018/03/Logo_Michel_Augustin-150x150.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/72.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Logo_Suez_2016-285x72.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Adecco-logo-300x246.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2016/12/utileetagreable-150x150.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2017/05/chimene.png'},
@@ -195,7 +195,7 @@ export default {
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/1280px-Logo-groupe-ginger.svg_.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2017/10/ecp.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/logo-auchan-retail-france.png'},
-          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-11-%C3%A0-10.10.143.png'},
+          {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-11-%C3%A0-10.10.08-285x143.png'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/10/Buffalo-Grill-Logo.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2020/12/Logo-Total-1.jpg'},
           {src: 'https://www.wakeupcafe.org/wp-content/uploads/2021/03/logo-daphni-150x150.jpg'},

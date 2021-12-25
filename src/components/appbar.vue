@@ -31,7 +31,7 @@
                 class='flex-shrink-0 text-no-wrap  my-0 text-center text-lg-left'
                 >
                     <h1 class="text-h3 font-weight-bold" style="font-family: 'Tangerine' !important; text-shadow: 4px 4px 6px #001997;">
-                        <a href="/" class="text-decoration-none orange--text text--darken-2">
+                        <a href="/" class="orange--text text--darken-2">
                         Wake up café
                         </a>
                     </h1>

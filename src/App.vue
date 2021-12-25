@@ -85,6 +85,9 @@ export default {
   }
 }
 
+a{
+  text-decoration: none;
+}
 
 h2{
   font-family: 'Tangerine';
