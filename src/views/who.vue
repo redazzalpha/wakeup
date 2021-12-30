@@ -452,7 +452,40 @@
                                 </v-card>
                             </v-col>
                         </v-row>
-
+                    </v-container>
+                </div>
+            </v-tab-item>
+            <!--projets-tab-->
+            <v-tab-item>
+                <h2>Les projets</h2>
+                <div class="mx-auto" :style="widthStyle">
+                    <v-container grid-list-xs>                        
+                        <v-row style="border: solid red 3px" >
+                            <v-col style="border: solid blue 3px">
+                                <v-card> 
+                                    <v-card-title primary-title>Bientot dans les bacs</v-card-title>
+                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-chorale-2.jpg' />
+                                </v-card>
+                            </v-col>
+                            <v-col style="border: solid blue 3px">
+                                <v-card> 
+                                    <v-card-title primary-title>Le projet de MJK</v-card-title>
+                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' />
+                                </v-card>
+                            </v-col>
+                            <v-col style="border: solid blue 3px">
+                                <v-card> 
+                                    <v-card-title primary-title>Projet audiovisuel</v-card-title>
+                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-waker-m6.jpg' />
+                                </v-card>
+                            </v-col>
+                            <v-col style="border: solid blue 3px">
+                                <v-card> 
+                                    <v-card-title primary-title>Danny l'écrivain</v-card-title>
+                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-la-moitie-du-chemin-dany-2-e1606043378448.jpg' />
+                                </v-card>
+                            </v-col>
+                        </v-row>
                     </v-container>
                 </div>
             </v-tab-item>
@@ -476,6 +509,7 @@ export default {
                 'Notre mission', 
                 "wkf l'aventure", 
                 'Nos belles histoires', 
+                'Les projets', 
             ],
             links: [
                 {label: 'Newsletter Eté 2019', link: 'https://www.wakeupcafe.org/wp-content/uploads/2019/08/Newsletter_Aout_2019.pdf'},
@@ -525,14 +559,13 @@ export default {
         },
         imgWidth() {
             let width = '';
-                switch(this.$vuetify.breakpoint.name) {
+            switch(this.$vuetify.breakpoint.name) {
                 case 'xs': width += '100%'; break;
                 case 'sm': width += '90%'; break;
                 case 'md': width += '85%'; break;
                 case 'lg': width += '80%'; break;
                 case 'xl': width += '80%'; break;
             }
-
             return width;
         },
     }

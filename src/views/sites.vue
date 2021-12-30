@@ -14,7 +14,7 @@
     <v-container grid-list-xs class="pa-0">
       <v-row no-gutters class="justify-center mx-auto" style="max-width: 1200px" >
         <v-col v-for='img in images' :key="img.src" class="col-md-5 py-2 px-md-2">
-          <figure class="elevation-10 mx-auto " :style="'border-radius: 15px 15px 0 0; width: ' + (figureWidth)">
+          <figure class="elevation-3 mx-auto " :style="'border-radius: 15px 15px 0 0; width: ' + (figureWidth)">
             <v-img :src='img.src' :title='img.title' style="border-radius: 15px 15px 0 0;" max-height=189 />
             <figcaption>{{ img.caption }}</figcaption>
           </figure>

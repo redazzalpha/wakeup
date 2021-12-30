@@ -8,7 +8,7 @@
 
     <!--institutional-partners-->
     <h3>Partenaires institutionnels</h3>
-    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-10">
+    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-3">
       <v-card-text>
         <v-container grid-list-xs>
           <v-row class="d-flex align-center justify-center">
@@ -25,7 +25,7 @@
 
     <!--fondation-->
     <h3>Fondations</h3>
-    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-10">
+    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-3">
       <v-card-text>
         <v-container grid-list-xs>
           <v-row class="d-flex align-center justify-center">
@@ -42,7 +42,7 @@
 
     <!--society-partners-->
     <h3>Entreprises partenaires</h3>
-    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-10">
+    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-3">
       <v-card-text>
         <v-container grid-list-xs>
           <v-row class="d-flex align-center justify-center">
@@ -79,7 +79,7 @@
 
     <!--our-price-->
     <h3>Nos prix</h3>
-    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-10">
+    <v-card shaped :width='cardWidth' class="mx-auto my-10 elevation-3">
       <v-card-text>
         <v-container grid-list-xs>
           <v-row class="d-flex align-center justify-center">
