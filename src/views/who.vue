@@ -459,7 +459,7 @@
             <v-tab-item>
                 <h2>Les projets</h2>
                 <div class="mx-auto" :style="widthStyle">
-                    <v-container grid-list-xs>                        
+                    <v-container grid-list-xs>
                         <v-row style="border: solid red 3px" >
                             <v-col style="border: solid blue 3px">
                                 <v-card> 
@@ -467,18 +467,24 @@
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-chorale-2.jpg' />
                                 </v-card>
                             </v-col>
+                        </v-row>
+                        <v-row>
                             <v-col style="border: solid blue 3px">
                                 <v-card> 
                                     <v-card-title primary-title>Le projet de MJK</v-card-title>
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' />
                                 </v-card>
-                            </v-col>
+                            </v-col>                            
+                        </v-row>
+                        <v-row>
                             <v-col style="border: solid blue 3px">
                                 <v-card> 
                                     <v-card-title primary-title>Projet audiovisuel</v-card-title>
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-waker-m6.jpg' />
                                 </v-card>
                             </v-col>
+                        </v-row>
+                        <v-row>
                             <v-col style="border: solid blue 3px">
                                 <v-card> 
                                     <v-card-title primary-title>Danny l'écrivain</v-card-title>
