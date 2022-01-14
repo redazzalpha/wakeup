@@ -460,35 +460,29 @@
                 <h2>Les projets</h2>
                 <div class="mx-auto" :style="widthStyle">
                     <v-container grid-list-xs>
-                        <v-row style="border: solid red 3px" >
-                            <v-col style="border: solid blue 3px">
+                        <v-row>
+                            <v-col class="col-12 col-sm-6">
                                 <v-card> 
                                     <v-card-title primary-title>Bientot dans les bacs</v-card-title>
-                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-chorale-2.jpg' />
+                                    <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-chorale-2.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
-                        </v-row>
-                        <v-row>
-                            <v-col style="border: solid blue 3px">
+                            <v-col class="col-12 col-sm-6">
                                 <v-card> 
                                     <v-card-title primary-title>Le projet de MJK</v-card-title>
-                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' />
+                                    <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>                            
-                        </v-row>
-                        <v-row>
-                            <v-col style="border: solid blue 3px">
+                            <v-col class="col-12 col-sm-6">
                                 <v-card> 
                                     <v-card-title primary-title>Projet audiovisuel</v-card-title>
-                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-waker-m6.jpg' />
+                                    <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-waker-m6.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
-                        </v-row>
-                        <v-row>
-                            <v-col style="border: solid blue 3px">
+                            <v-col class="col-12 col-sm-6">
                                 <v-card> 
                                     <v-card-title primary-title>Danny l'écrivain</v-card-title>
-                                    <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-la-moitie-du-chemin-dany-2-e1606043378448.jpg' />
+                                    <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-la-moitie-du-chemin-dany-2-e1606043378448.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
                         </v-row>
@@ -535,7 +529,7 @@ export default {
             switch (this.$vuetify.breakpoint.name) {
                 case 'xs': style += '100%'; break;
                 case 'sm': style += '80%'; break;
-                case 'md': style += '90%'; break;
+                case 'md': style += '70%'; break;
                 case 'lg': style += '50%'; break;
                 case 'xl': style += '50%'; break;
             }
@@ -546,8 +540,8 @@ export default {
             switch (this.$vuetify.breakpoint.name) {
                 case 'xs': style += 'width: 100%; height: 250px'; break;
                 case 'sm': style += 'width: 100%; height: 350px'; break;
-                case 'md': style += 'width: 100%; height: 550px'; break;
-                case 'lg': style += 'width: 100%; height: 650px'; break;
+                case 'md': style += 'width: 100%; height: 350px'; break;
+                case 'lg': style += 'width: 100%; height: 450px'; break;
                 case 'xl': style += 'width: 100%; height: 500px'; break;
             }
             return style;
@@ -573,6 +567,17 @@ export default {
                 case 'xl': width += '80%'; break;
             }
             return width;
+        },
+        imgProject() {
+            let style = '';
+            switch(this.$vuetify.breakpoint.name) {
+                case 'xs': style += 'width: 100%; height: 225px'; break;
+                case 'sm': style += 'width: 100%; height: 225px'; break;
+                case 'md': style += 'width: 100%; height: 350px'; break;
+                case 'lg': style += 'width: 100%; height: 300px'; break;
+                case 'xl': style += 'width: 100%; height: 350px'; break;
+            }
+            return style;
         },
     }
 }
