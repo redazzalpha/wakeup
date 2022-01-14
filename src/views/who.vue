@@ -470,7 +470,9 @@
                             <v-col class="col-12 col-sm-6">
                                 <v-card> 
                                     <v-card-title primary-title>Le projet de MJK</v-card-title>
-                                    <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' :style='imgProject' />
+                                    <router-link to="/">
+                                        <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' :style='imgProject' />
+                                    </router-link>
                                 </v-card>
                             </v-col>                            
                             <v-col class="col-12 col-sm-6">
