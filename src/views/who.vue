@@ -330,7 +330,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Le témoignage de Kenzo</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Le témoignage de Kenzo</v-card-title>
                                     <v-card-text class="pa-0">
                                         <iframe 
                                         src="https://www.youtube.com/embed/t-9Lj3Jde-s"
@@ -348,7 +348,7 @@
                         <v-row>
                             <v-col>
                                 <v-card >
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Tally, Inventeur Entrepreneur</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Tally, Inventeur Entrepreneur</v-card-title>
                                     <v-card-text class="pa-0">
                                         <iframe 
                                         src="https://www.youtube.com/embed/ngAZ-YCw5TQ"
@@ -367,7 +367,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Dylan, 20 ans</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Dylan, 20 ans</v-card-title>
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2017/01/wkf-dylan-2.jpg' :width='widthStyle' class="float-right"/>
                                     <v-card-text>
                                         Le 25 octobre dernier, l'équipe de Wake up Café était sur le chantier où travaille Dylan, 20 ans. <br>
@@ -386,7 +386,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Jean-Pierre - 34 ans</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Jean-Pierre - 34 ans</v-card-title>
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2017/01/wkf-jean-pierre-2.jpg' :width='widthStyle'  class="float-right" />
                                     <v-card-text>
                                         Jean-Pierre était en détention à Nanterre et y a rencontré Clotilde. <br>
@@ -403,7 +403,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Eric - 32 ans</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Eric - 32 ans</v-card-title>
                                     <v-img src='https://www.wakeupcafe.org/wp-content/uploads/2018/06/Action-reinsertion-Eric.jpg' :width='widthStyle'  class="float-right" />
                                     <v-card-text>
                                         Eric est arrivé en France après une détention difficile au Congo. <br>
@@ -419,7 +419,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Ismaël, éleveur de poussins</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Ismaël, éleveur de poussins</v-card-title>
                                     <v-card-text>
                                         <q>Je ne pouvais pas imaginer que je puisse être un bon jardinier ou un bon peintre</q> <br>
                                         <q>J'aimerais leur dire de se battre, de ne pas perdre espoir</q> <br>
@@ -431,7 +431,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Olivier, Chauffeur poids lourds</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Olivier, Chauffeur poids lourds</v-card-title>
                                     <v-card-text>
                                         <q>Quand je suis sorti de prison, j'ai ressenti de la joie, bien sûr de la joie, et puis l'envie de tout recommencer à zéro</q> <br>
                                         <q>Je suis assez confiant en l'avenir, dès que j'ai un truc qui se passe dans ma vie, j'avance</q> <br>
@@ -443,7 +443,7 @@
                         <v-row>
                             <v-col>
                                 <v-card>
-                                    <v-card-title style="background: linear-gradient( #BDBDBD, white, #BDBDBD)" class="text-subtitle-1 text-sm-h6">Marcel, Cuisinier</v-card-title>
+                                    <v-card-title primary-title class="story text-subtitle-1 text-sm-h6" >Marcel, Cuisinier</v-card-title>
                                     <v-card-text>
                                         <q>Quand on regarde ça pendant un moment, ça apaise l'esprit</q> <br>
                                         <q>Je crois que toute la prison sait que je peins maintenant. Ça les aide aussi</q> <br>
@@ -463,27 +463,27 @@
                         <v-row>
                             <v-col class="col-12 col-sm-6">
                                 <v-card> 
-                                    <v-card-title primary-title>Bientot dans les bacs</v-card-title>
+                                    <v-card-title primary-title class="project">Bientot dans les bacs</v-card-title>
                                     <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-chorale-2.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
                             <v-col class="col-12 col-sm-6">
                                 <v-card> 
-                                    <v-card-title primary-title>Le projet de MJK</v-card-title>
-                                    <router-link to="/">
+                                    <v-card-title primary-title class="project">Le projet de MJK</v-card-title>
+                                    <router-link to="/who/mjk">
                                         <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-peintures-mjk-1.jpg' :style='imgProject' />
                                     </router-link>
                                 </v-card>
                             </v-col>                            
                             <v-col class="col-12 col-sm-6">
                                 <v-card> 
-                                    <v-card-title primary-title>Projet audiovisuel</v-card-title>
+                                    <v-card-title primary-title class="project">Projet audiovisuel</v-card-title>
                                     <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-waker-m6.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
                             <v-col class="col-12 col-sm-6">
                                 <v-card> 
-                                    <v-card-title primary-title>Danny l'écrivain</v-card-title>
+                                    <v-card-title primary-title class="project">Danny l'écrivain</v-card-title>
                                     <img src='https://www.wakeupcafe.org/wp-content/uploads/2016/10/wkf-la-moitie-du-chemin-dany-2-e1606043378448.jpg' :style='imgProject' />
                                 </v-card>
                             </v-col>
@@ -589,6 +589,9 @@ export default {
 q {
     color: grey;
     font-style: italic;
+}
+.story, .project {
+    background: linear-gradient( #BDBDBD, white, #BDBDBD);
 }
 </style>
 

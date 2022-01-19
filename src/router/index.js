@@ -8,6 +8,7 @@ import partners from '../views/partners.vue';
 import help from '../views/help.vue';
 import join from '../views/join.vue';
 import medias from '../views/medias.vue';
+import mjk from '../views/mjk.vue';
 
 Vue.use(VueRouter);
 
@@ -52,7 +53,11 @@ const routes = [
     path: '/medias',
     component: medias
   },
-
+  {
+    name: 'mjk',
+    path: '/who/mjk',
+    component: mjk
+  }
 ];
 
 const router = new VueRouter({
