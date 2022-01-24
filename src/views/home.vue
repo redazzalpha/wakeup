@@ -89,7 +89,7 @@ export default {
                 case 'sm': height = 400; break;
                 case 'md': height = 500; break;
                 case 'lg': height = 600; break;
-                case 'xl': height = 800; break;
+                case 'xl': height = 600; break;
             }
             return height;
         },

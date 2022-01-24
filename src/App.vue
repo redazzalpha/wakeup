@@ -88,7 +88,9 @@ export default {
 a{
   text-decoration: none;
 }
-
+q{
+  color: grey;
+}
 h2{
   font-family: 'Tangerine';
   font-size: 3em;
