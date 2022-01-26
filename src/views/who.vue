@@ -496,7 +496,8 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue';
+export default Vue.extend({
     name: 'who',
     data: () => {
         return {
@@ -582,7 +583,7 @@ export default {
             return style;
         },
     }
-}
+});
 </script>
 
 <style lang="scss" scoped>

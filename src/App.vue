@@ -40,11 +40,12 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import appbar from './components/appbar.vue';
 import menulist from './components/menulist.vue';
 import ftr from './components/footer.vue';
 import btnscrolltop from './components/btnscrolltop.vue';
-export default {
+export default Vue.extend({
   name: 'main-app',
   components: {
     appbar,
@@ -57,7 +58,7 @@ export default {
       drawer: null,
     };
   },
-}
+});
 </script>
 
 <style lang="scss">
@@ -115,6 +116,6 @@ figcaption {
     padding: 5px;
     text-align: center;
     font-size: 15px;
-}
+};
 </style>
 

@@ -15,8 +15,9 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import { mapState } from 'vuex';
-export default {
+export default Vue.extend({
     name: 'menulist',
     data: () => {
         return {
@@ -27,7 +28,7 @@ export default {
             'menus'
         ]),
     },
-}
+});
 </script>
 
 <style lang="scss" scoped>

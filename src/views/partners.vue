@@ -110,7 +110,8 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue';
+export default Vue.extend({
     name: 'partners',
     data: () => {
       return {
@@ -271,6 +272,6 @@ export default {
         return style;
       },
     },
-}
+});
 </script>
 

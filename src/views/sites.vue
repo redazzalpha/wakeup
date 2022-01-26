@@ -25,7 +25,8 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue';
+export default Vue.extend({
     name: 'sites',
     data: () => {
       return {
@@ -61,6 +62,6 @@ export default {
         return width;
       },
     }
-}
+});
 </script>
 

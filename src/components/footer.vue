@@ -74,8 +74,9 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import { mapState } from 'vuex';
-export default {
+export default Vue.extend({
     name: 'ftr',
     data: () => {
         return {
@@ -110,5 +111,5 @@ export default {
             return width;
         },
     },
-}
+});
 </script>

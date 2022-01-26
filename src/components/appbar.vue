@@ -66,8 +66,9 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import { mapState } from 'vuex';
-export default {
+export default Vue.extend({
     name: 'appbar',
     data: () => {
         return {
@@ -81,6 +82,6 @@ export default {
             return this.$vuetify.breakpoint.name == 'xs'? 'top left' : 'left';
         },
     }
-}
+});
 </script>
 
